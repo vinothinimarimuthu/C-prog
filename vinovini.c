@@ -1,17 +1,14 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    char ch;
+    int year;
+    printf("Enter any year");
+    scanf("%c",&year);
 
-    //Asking user to enter the character
-    printf("Enter any character: ");
-    //storing the entered character into the variable ch
-    scanf("%c",&ch);
-
-    if( (ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
-        printf("The entered character %c is an Alphabet",ch);
+    
+       printf("The entered year %c is an Alphabet",year);
     else
-        printf("The entered character %c is not an Alphabet",ch);
+        printf("The entered year%c is not an Alphabet"year);
 
     return 0;
 }
