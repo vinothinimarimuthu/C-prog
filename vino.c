@@ -6,7 +6,7 @@ printf("Enter the a,b value");
 scanf("%d %d&a&b");
 if(a>b)
 {
-printf("\n%d a is even number %d&a&b");
+printf("\n a is even number ");
 else
-printf("\n%d a is odd number %d &a&b");
+printf(" a is odd number ");
 }
