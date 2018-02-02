@@ -1,10 +1,9 @@
-#include <iostream>
-using namespace std;
-int main() {
+#include <stdio.h>
+void main()
+{
     int i, n;
-    cin >> n;
-    for (i=0; i<n; i++) {
-        cout << "hello world\n";
+   for (i=0; i<n; i++) {
+        printf ( "hello world\n");
     }
     return 0;
 }
