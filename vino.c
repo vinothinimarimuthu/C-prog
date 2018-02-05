@@ -9,4 +9,5 @@ if(a>b)
 printf("\n a is even number ");
 else
 printf(" a is odd number ");
+
 }
