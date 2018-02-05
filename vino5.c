@@ -7,7 +7,7 @@ for(i=0;i<2;i++)
 {
 if(n%i==0)
 num=num+1
-print (" the prime number is\n");
-scanf("%d"&yes);
+print (" between space is\n");
+scanf("%d"&space);
 break;
 }
