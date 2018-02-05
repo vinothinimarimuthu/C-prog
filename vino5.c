@@ -7,7 +7,7 @@ for(i=0;i<2;i++)
 {
 if(n%i==0)
 num=num+1
-print (" between space is\n");
-scanf("%d"&space);
+print (" between intervals is\n");
+scanf("%d"&intervals);
 break;
 }
