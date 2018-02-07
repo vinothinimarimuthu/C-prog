@@ -12,4 +12,5 @@ num=num/10;
 reverse=reverse*10+digits
 {
 printf("reverse of digits %d",&reverse);
+  printf("palindrome or not")
 }
