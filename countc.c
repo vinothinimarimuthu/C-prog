@@ -1,22 +1,21 @@
 #include <stdio.h>
-
 int main() 
 {
-	char s[50];
+	char a[50];
 	int i,c=0;
 	printf("enter the sentence:");
-	scanf("%[^\n]s",s);
-	for(i=0;s[i]!='\0';i++)
+	scanf("%[^\n]s",a);
+	for(i=0;a[i]!='\0';i++)
 	{
-		c=c+1;
+		d=d+1;
 	}
-	for(i=0;s[i]!='\0';i++)
+	for(i=0;a[i]!='\0';i++)
 	{
-		if(s[i]==' ')
+		if(a[i]==' ')
 		{
-			c=c-1;
+			d=d-1;
 		}
 	}
-	printf("\n%d",c);
-	return 0;
+	printf("\n%d",d);
+	
 }
