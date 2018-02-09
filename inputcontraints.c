@@ -1,17 +1,15 @@
 #include<stdio.h>
-
- 
-void main()
+ void main()
 {
-    int i,n;
-    int sum=0,a[60];
+    int a,b;
+    int sum=0,i[60];
     int avg=0;
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
+    scanf("%d",&b);
+    for(a=0;a<n;a++)
     {
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++)
+    for(a=0;a<n;a++)
     {
         sum=sum+a[i];
     }
