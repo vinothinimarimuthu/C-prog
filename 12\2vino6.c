@@ -1,5 +1,5 @@
 #include<stdio.h>        
-int main()
+void main()
 {
     int n,a[10],i,max=-999;
     scanf("%d",&n);
@@ -15,5 +15,5 @@ int main()
         }
     }
     printf("%d",max);
-    return 0;
+    
 }
