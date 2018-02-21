@@ -2,9 +2,9 @@
 int main()
 {
 int a,b,n,i;
-printf("\n  enter the maximum number :");
+printf("\n  enter the highest number :");
 scanf("%d",&a);
-printf("\n enter the minimum number:");
+printf("\n enter the lowest number:");
 scanf("%d",&b);
 for(i=0;i<=10;i++)
 {
